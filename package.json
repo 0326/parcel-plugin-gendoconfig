@@ -1,0 +1,18 @@
+{
+  "name": "parcel-plugin-gendoconfig",
+  "version": "0.0.1",
+  "description": "parcel plugin to auto generate document config",
+  "main": "index.js",
+  "repository": "git@github.com:0326/parcel-plugin-gendoconfig.git",
+  "author": "0326 <winniringy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel demo.html",
+    "build": "parcel build index.js"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-gendoconfig": "^0.0.1"
+  }
+}
